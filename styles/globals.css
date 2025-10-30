@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 这里可以放企业层级的全局样式覆盖 */
+body {
+  @apply bg-gray-50 text-slate-900;
+}
